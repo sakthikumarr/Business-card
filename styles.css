@@ -1,27 +1,30 @@
+
+*{
+  box-sizing: border-box;
+  margin: auto;
+  padding: auto;
+  
+}
+
 body{
-  background-image: linear-gradient(purple, white);
   font-family: Arial, sans-serif;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
-p {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
- 
+
 .business-card {
-  margin-top: 100px;
-  padding: 20px;
-  background-color: white;
- margin-left: auto;
- margin-right: auto; 
- width: 300px;
+ width: 30vw;
+ height: 95vh;
+ padding: 10px;
+ background-color: linen;
  text-align: center;
- font-size: 16px;
  box-shadow: 10px 10px 10px 10px;
  border-radius: 10px;
 }
 .profile-image{
-  max-width: 100%;
+  max-width: 15em;
+  object-fit: cover;
 }
 a {
 text-decoration: none;
